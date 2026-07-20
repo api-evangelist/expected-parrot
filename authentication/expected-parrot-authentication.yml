@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.expectedparrot.com/en/latest/api_keys.md
+docs: https://docs.expectedparrot.com/en/latest/api_keys.html
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - environment
+  notes: Expected Parrot uses an API-key model rather than OAuth. An Expected Parrot
+    API key (EXPECTED_PARROT_API_KEY) authenticates remote inference and platform
+    (Coop) storage/sharing; alternatively users supply their own third-party model
+    provider keys for local inference. No OAuth2 or OIDC surface is published.
+schemes:
+- name: ExpectedParrotApiKey
+  type: apiKey
+  in: environment
+  parameter: EXPECTED_PARROT_API_KEY
+  description: Personal Expected Parrot key from the account page; grants access to
+    all available models via the Expected Parrot server (remote inference) and to
+    posting/sharing content on the platform. Stored via the account, a local file,
+    or an environment variable.
+  managed_at: https://www.expectedparrot.com/home/keys
+- name: ProviderModelKeys
+  type: apiKey
+  in: environment
+  description: Optional user-supplied keys for model providers (Anthropic, Azure, Bedrock,
+    Deep Infra, DeepSeek, Google, Groq, Mistral, OpenAI, Perplexity, Together, Xai)
+    for local inference without the Expected Parrot server.
