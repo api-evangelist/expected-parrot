@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/expectedparrot/skills
+note: Provider-published Agent Skills for coding agents working with EDSL, saved verbatim
+  from the expectedparrot/skills repository (.claude/skills/). These are packaged
+  operating instructions grounded in the EDSL Python library rather than a REST spec.
+skills:
+- file: expected-parrot-create-survey.md
+  name: create-survey
+  description: Create Surveys from questions, QSF files, or programmatically with branching
+    logic.
+- file: expected-parrot-design-experiment.md
+  name: design-experiment
+  description: Design a full AI-powered experiment (agents, scenarios, survey, models).
+- file: expected-parrot-create-study.md
+  name: create-study
+  description: Create a reproducible EDSL study.
+- file: expected-parrot-create-agent-list.md
+  name: create-agent-list
+  description: Build AgentLists from CSV, Excel, dictionaries, or programmatically.
+- file: expected-parrot-answer-question.md
+  name: answer-question
+  description: Run a question/survey against language models and simulated agents.
+- file: expected-parrot-analyze-results.md
+  name: analyze-results
+  description: Analyze and visualize survey Results (select, filter, tabulate, report).
+- file: expected-parrot-publish-study.md
+  name: publish-study
+  description: Publish and share a study/results on the Expected Parrot platform.
+- file: expected-parrot-search-objects.md
+  name: search-objects
+  description: Search and pull shared objects from the Expected Parrot platform.
+- file: expected-parrot-edsl-survey-reference.md
+  name: edsl-survey-reference
+  description: Reference for the EDSL Survey object and question types.
+- file: expected-parrot-edsl-agent-reference.md
+  name: edsl-agent-reference
+  description: Reference for the EDSL Agent object and traits.
+- file: expected-parrot-edsl-persistence-reference.md
+  name: edsl-persistence-reference
+  description: Reference for saving/loading EDSL objects locally and to the cloud.

@@ -1,9 +1,28 @@
 aid: expected-parrot
 name: Expected Parrot
-description: Expected Parrot is a company surfaced as a portfolio company of bloomberg-beta, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Expected Parrot is a research-technology company building tools for AI-powered
+  social science. Its open-source Python library EDSL (Expected Parrot Domain-Specific
+  Language) lets researchers design, conduct, and analyze surveys and experiments in
+  which large language models power simulated AI agents that answer questions, alongside
+  or in place of human respondents. The Expected Parrot platform adds remote inference
+  across many model providers (Anthropic, OpenAI, Google, Mistral, and more) via a
+  single Expected Parrot API key, plus cloud storage, sharing, and collaboration for
+  surveys, agents, scenarios, and results. It is used for market research, data labeling,
+  digital twins, synthetic-user UX studies, and reproducible computational social science.
 url: https://raw.githubusercontent.com/api-evangelist/expected-parrot/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/expectedparrot.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Large Language Models
+- Surveys
+- Research
+- Social Science
+- Synthetic Data
+- AI Agents
+- Market Research
+- Python
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.expectedparrot.com/
+- type: Documentation
+  url: https://docs.expectedparrot.com/
+- type: GettingStarted
+  url: https://docs.expectedparrot.com/en/latest/getting_started.html
+- type: GitHubOrganization
+  url: https://github.com/expectedparrot
+- type: Pricing
+  url: https://www.expectedparrot.com/models
+- type: Login
+  url: https://www.expectedparrot.com/login
+- type: Packages
+  url: packages/expected-parrot-packages.yml
+- type: SDKs
+  url: packages/expected-parrot-packages.yml
+- type: Authentication
+  url: authentication/expected-parrot-authentication.yml
+- type: ChangeLog
+  url: changelog/expected-parrot-changelog.yml
+- type: LLMsTxt
+  url: llms/expected-parrot-llms.txt
+- type: AgentSkill
+  url: skills/_index.yml
+- type: DomainSecurity
+  url: security/expected-parrot-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

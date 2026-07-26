@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/edsl/
+packages:
+- language: python
+  registry: pypi
+  name: edsl
+  url: https://pypi.org/project/edsl/
+  install: pip install edsl
+  version: 1.0.8
+  license: MIT
+  requires_python: '>=3.10,<3.14'
+  official: true
+  description: EDSL (Expected Parrot Domain-Specific Language) — an open-source Python
+    library to design, conduct and analyze AI-powered surveys and experiments with
+    large language models and simulated AI agents.
+  repository: https://github.com/expectedparrot/edsl
+- language: python
+  registry: github
+  name: expectedparrot/edsl
+  url: https://github.com/expectedparrot/edsl
+  install: pip install git+https://github.com/expectedparrot/edsl.git
+  official: true
+  description: Source repository for the EDSL Python library (Apache/MIT), the primary
+    client for the Expected Parrot platform.

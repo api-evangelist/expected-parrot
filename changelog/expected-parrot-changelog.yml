@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/expectedparrot/edsl/blob/main/CHANGELOG.md
+scheme: semver
+current_version: 1.0.8
+subject: edsl (Expected Parrot Python library)
+entries:
+- version: 1.0.7
+  date: '2026-04-29'
+  breaking: false
+  highlights:
+  - New in-process EDSL Runner replacing remote-only execution, with concurrent GCS
+    FileStore uploads.
+  - Human survey previews and humanize schema v1 (dropdowns, sliders, attention-check
+    validation).
+  - Job completion alerts via email or HTTP webhook; remote jobs can be cancelled.
+  - Anthropic thinking/effort passthrough and OpenAI v2 reasoning_effort as a first-class
+    parameter; thinking tokens included in cost tracking.
+  - Documentation overhaul; "Coop" platform references rebranded to "Expected Parrot".
+- version: 1.0.5
+  date: '2025-12-08'
+  breaking: false
+  highlights:
+  - Results.show_columns() hierarchical column visualization (mermaid / ASCII trees).
+  - Wildcard column selection patterns in ResultsSelector.
+  - New question groups feature and dropdown question type.
