@@ -10,6 +10,17 @@ description: Expected Parrot is a research-technology company building tools for
   surveys, agents, scenarios, and results. It is used for market research, data labeling,
   digital twins, synthetic-user UX studies, and reproducible computational social science.
 url: https://raw.githubusercontent.com/api-evangelist/expected-parrot/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
