@@ -1,0 +1,72 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.expectedparrot.com/models
+sources:
+- https://www.expectedparrot.com/models
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Large table of per-1M-token input/output/image-output rates Expected Parrot uses to compute credit
+  costs across services (anthropic, bedrock, deep_infra, google, groq, openai, openai_v2, xai). Only a
+  representative sample of ~318 rows is captured in plans. Asterisked prices indicate default/fallback
+  rates ($1.00/1M tokens fallback) where a model-specific price was not found.
+plan_count: 8
+currency: USD
+plans:
+- name: anthropic claude-haiku-4-5-20251001 (input)
+  price_text: $1.00
+  price: 1.0
+  currency: USD
+  period: per-use
+  unit: per 1M input tokens
+- name: anthropic claude-haiku-4-5-20251001 (output)
+  price_text: $5.00
+  price: 5.0
+  currency: USD
+  period: per-use
+  unit: per 1M output tokens
+- name: openai gpt-5 (input)
+  price_text: $1.25
+  price: 1.25
+  currency: USD
+  period: per-use
+  unit: per 1M input tokens
+- name: openai gpt-5 (output)
+  price_text: $10.00
+  price: 10.0
+  currency: USD
+  period: per-use
+  unit: per 1M output tokens
+- name: openai_v2 o1-pro (input)
+  price_text: $150.00
+  price: 150.0
+  currency: USD
+  period: per-use
+  unit: per 1M input tokens
+- name: openai_v2 o1-pro (output)
+  price_text: $600.00
+  price: 600.0
+  currency: USD
+  period: per-use
+  unit: per 1M output tokens
+- name: google gemini-2.5-flash-image (image output)
+  price_text: $30.00
+  price: 30.0
+  currency: USD
+  period: per-use
+  unit: per 1M image output tokens
+- name: deep_infra MiniMaxAI/MiniMax-M2.7-Turbo (input)
+  price_text: < $0.01
+  price: 0.01
+  currency: USD
+  period: per-use
+  unit: per 1M input tokens
