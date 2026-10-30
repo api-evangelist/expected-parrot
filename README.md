@@ -64,6 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Expected Parrot is a company surfaced as a portfolio company of bloomberg-beta, y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Expected Parrot is a research-technology company building tools for AI-powered social science. Its open-source Python library EDSL (Expected Parrot Domain-Specific Language) lets researchers design, conduct, and analyze surveys and experiments in which large language models power simulated AI agents that answer questions, alongside or in place of human respondents. The Expected Parrot platform adds remote inference across many model providers (Anthropic, OpenAI, Google, Mistral, and more) via a single Expected Parrot API key, plus cloud storage, sharing, and collaboration for surveys, agents, scenarios, and results. It is used for market research, data labeling, digital twins, synthetic-user UX studies, and reproducible computational social science.
 
-Backed by: bloomberg-beta, y-combinator — https://www.expectedparrot.com/
+**Areas:** Company · Artificial Intelligence · LLM · Surveys · Research · Social Science · Synthetic Data · AI Agents · Market Research · Python
+
+## Expected Parrot on APIs.io
+
+Everything profiled for Expected Parrot is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/expected-parrot/](https://apis.io/providers/expected-parrot/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Expected Parrot Authentication](https://apis.io/security/expected-parrot/expected-parrot-authentication/)
+- [Expected Parrot Domain Security](https://apis.io/security/expected-parrot/expected-parrot-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Expected Parrot Plans Pricing](https://apis.io/plans/expected-parrot/expected-parrot-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.expectedparrot.com/)
+- [Documentation](https://docs.expectedparrot.com/)
+- [Getting started](https://docs.expectedparrot.com/en/latest/getting_started.html)
+- [Pricing](https://www.expectedparrot.com/models)
+- [GitHub](https://github.com/expectedparrot)
+
+## API Evangelist rating
+
+**Kin Score 24.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 38.2 |
+
+**Agent readiness 6.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | yes |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/expected-parrot/](https://apis.io/providers/expected-parrot/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Expected Parrot: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/expected-parrot/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
